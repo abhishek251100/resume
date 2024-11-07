@@ -1,0 +1,90 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #d2ecee93, #727eef);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+      
+     
+  }
+  .d-block{
+    border-radius: 50%;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .custom-card-background {
+    background-image: url('Sathaye.png');  /* Replace with your image path */
+    background-size: cover;  /* Ensure the image covers the entire card */
+    background-position: center;  /* Center the image horizontally and vertically */
+  }
+  .custom-card-background2 {
+    background-image: url('NKT.png');  /* Replace with your image path */
+    background-size: cover;  /* Ensure the image covers the entire card */
+    background-position: center;  /* Center the image horizontally and vertically */
+  }
+  .custom-card-background3 {
+    background-image: url('NIIT.png');  /* Replace with your image path */
+    background-size: cover;  /* Ensure the image covers the entire card */
+    background-position: center;  /* Center the image horizontally and vertically */
+  }
+
+  body {
+    font-family: "Merriweather", serif;  /* Use Merriweather as the primary font, fallback to serif fonts */
+    color: #8b8888;
+  }
+
+  .display-5 {  /* Targets headings with class display-5 (Bootstrap class) */
+    font-family: "Playfair Display", serif;
+  }
+  
+  .lead {  /* Targets paragraph elements with class lead (Bootstrap class) */
+    font-family: Open Sans, sans-serif;
+  }
+  
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;  /* Make headings bold */
+  }
+
+  #gray{
+    color: #8b8888;
+  }
+
+ .logo{
+  height: 80px;
+  width: 80px;
+ }
+ 
+
+ .btn {
+  margin: 5px;  /* Add some margin between buttons */
+}
+
+/* Style the LinkedIn button */
+.btn-primary {
+  background-color: #007bff;  /* Change this to your desired blue color */
+  border-color: #007bff;
+  color: #fff;
+}
+
+/* Style the Contact Section button */
+#github-btn {
+  
+  color: #f5f4f4;  /* Change this to your desired text color */
+  background-color:#333; 
+  border-color: #ccc;
+}
+
+.logo1{
+  width: 47px;
+  height:47px;
+}
